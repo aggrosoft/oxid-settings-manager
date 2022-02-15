@@ -14,7 +14,7 @@ $aModule = array(
     'author'       => 'Aggrosoft GmbH',
     'extend'      => [
         \OxidEsales\Eshop\Core\ViewConfig::class => \Aggrosoft\SettingsManager\Application\Core\ViewConfig::class,
-        \OxidEsales\Eshop\Application\Controller\Admin\ShopConfig::class => \Aggrosoft\SettingsManager\Application\Controller\Admin\ShopConfig::class
+        \OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration::class => \Aggrosoft\SettingsManager\Application\Controller\Admin\ShopConfiguration::class
     ],
     'settings' => [
         ['group' => 'agsettingsmanager_main', 'name' => 'aAdditionalConfBools','type' => 'aarr',   'value' => ''],

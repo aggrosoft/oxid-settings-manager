@@ -1,0 +1,26 @@
+{
+  "name": "aggrosoft/oxid-settings-manager",
+  "type": "oxideshop-module",
+  "description": "Allows adding generic settings that can be used in the installation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Kludt",
+      "homepage": "https://github.com/aggrosoft"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "agsettingsmanager"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\SettingsManager\\": "../../../source/modules/agsettingsmanager"
+    }
+  },
+  "version": "1.0.0"
+}

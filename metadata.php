@@ -10,7 +10,7 @@ $aModule = array(
         'en' => 'Add custom settings to shop installation'
     ],
     'thumbnail'    => '',
-    'version'      => '1.0.0-beta.1',
+    'version'      => '1.0.0-beta.2',
     'author'       => 'Aggrosoft GmbH',
     'extend'      => [
         \OxidEsales\Eshop\Core\ViewConfig::class => \Aggrosoft\SettingsManager\Application\Core\ViewConfig::class,

@@ -1,6 +1,6 @@
 <?php
 
-namespace Aggrosoft\SettingsManager\Core;
+namespace Aggrosoft\SettingsManager\Application\Core;
 
 class ViewConfig extends ViewConfig_parent
 {
